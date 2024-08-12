@@ -2,6 +2,7 @@ package auth
 
 import (
 	"testing"
+	"net/http"
 )
 
 //unit test
