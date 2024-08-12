@@ -4,6 +4,8 @@ import (
 	"testing"
 )
 
+//unit test
+
 func TestGetAPIKey(t *testing.T) {
 	headers := http.Header{}
 	headers.Set("Authorization", "ApiKey my_test_key")
