@@ -1,11 +1,9 @@
 package auth
 
 import (
-	"testing"
 	"net/http"
+	"testing"
 )
-
-//unit test
 
 func TestGetAPIKey(t *testing.T) {
 	headers := http.Header{}
